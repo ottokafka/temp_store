@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion - Batik Symphony</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Define the current category for this page
+        const currentCategory = "fashion";
+    </script>
+    <script src="js/script.js" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="js/cart.js" defer></script>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header -->
+    <header class="flex items-center justify-between p-4 shadow-md">
+        <a href="homepage.html" class="text-2xl font-bold text-gray-800 hover:text-gray-900 pl-4">Batik Symphony</a>
+        <nav class="hidden md:flex space-x-8">
+            <a href="fashion.html" class="text-lg font-medium text-gray-600 hover:text-gray-900">Fashion</a>
+            <a href="decor.html" class="text-lg font-medium text-gray-600 hover:text-gray-900">Living & Decor</a>
+            <a href="lifestyle.html" class="text-lg font-medium text-gray-600 hover:text-gray-900">Lifestyle</a>
+            <a href="gifts.html" class="text-lg font-medium text-gray-600 hover:text-gray-900">Gifts</a>
+        </nav>
+        <div class="flex items-center space-x-4 pr-4">
+            <!-- Hamburger Menu -->
+            <button id="menu-toggle" class="block md:hidden text-gray-600 hover:text-gray-900">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+            <!-- Cart Icon -->
+            <div class="relative">
+                <a href="cart.html" class="text-gray-600 hover:text-gray-900">
+                    <i class="fas fa-shopping-cart text-3xl"></i>
+                </a>
+                <span id="cart-count" class="absolute top-0 right-0 bg-red-600 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">0</span>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Mobile Menu -->
+    <nav id="mobile-menu" class="hidden md:hidden bg-white shadow-md p-4">
+        <a href="fashion.html" class="block text-lg font-medium text-gray-600 hover:text-gray-900 mb-4">Fashion</a>
+        <a href="decor.html" class="block text-lg font-medium text-gray-600 hover:text-gray-900 mb-4">Living & Decor</a>
+        <a href="lifestyle.html" class="block text-lg font-medium text-gray-600 hover:text-gray-900 mb-4">Lifestyle</a>
+        <a href="gifts.html" class="block text-lg font-medium text-gray-600 hover:text-gray-900">Gifts</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="p-8 flex-grow">
+        <h1 id="category-name" class="text-3xl font-bold text-center text-gray-800 mb-6">Fashion</h1>
+        <div class="flex justify-end mb-4">
+            <label for="sort" class="mr-2 text-gray-600">Sort By:</label>
+            <select id="sort" class="border border-gray-300 rounded p-2 focus:outline-none focus:ring-2 focus:ring-gray-400">
+                <option value="name">Name</option>
+                <option value="price">Price</option>
+            </select>
+        </div>
+        <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+    </main>
+    <footer class="bg-gray-100 text-gray-800 py-4">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-sm mb-2">&copy; 2025 Batik Symphony. All rights reserved.</p>
+            <div class="flex justify-center items-center space-x-6">
+                <!-- Email Icon linking to Contact Us -->
+                <a href="contact-us.html" class="text-gray-600 hover:text-gray-900">
+                    <i class="fas fa-envelope text-xl"></i>
+                </a>
+                <!-- Instagram Icon -->
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900">
+                    <i class="fab fa-instagram text-xl"></i>
+                </a>
+                <!-- Facebook Icon -->
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900">
+                    <i class="fab fa-facebook text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>

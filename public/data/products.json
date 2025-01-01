@@ -1,0 +1,150 @@
+{
+    "fashion": [
+        {
+            "id": 1,
+            "name": "Batik Wrap Skirt",
+            "price": 45.00,
+            "description": "Embrace timeless elegance with this batik wrap skirt, perfect for both casual and formal outings. Its flowing design adds a touch of grace to every step.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 2,
+            "name": "Batik Tote Bag",
+            "price": 30.00,
+            "description": "Carry style with you! This spacious and durable tote combines traditional batik patterns with modern functionality.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 3,
+            "name": "Rattan Handbag with Batik Trim",
+            "price": 50.00,
+            "description": "Make a statement with this one-of-a-kind handbag. A perfect blend of rustic rattan and vibrant batik details.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 4,
+            "name": "Batik Scarf",
+            "price": 25.00,
+            "description": "Lightweight and versatile, this scarf is your go-to accessory for adding a splash of color and tradition to any outfit.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 5,
+            "name": "Batik Hair Accessories",
+            "price": 15.00,
+            "description": "From chic headbands to playful scrunchies, these accessories bring a pop of batik charm to your everyday look.",
+            "image": "https://via.placeholder.com/150"
+        }
+    ],
+    "decor": [
+        {
+            "id": 6,
+            "name": "Rattan Basket Set",
+            "price": 60.00,
+            "description": "Declutter in style! These handwoven baskets are practical, durable, and oh-so-beautiful for every corner of your home.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 7,
+            "name": "Batik Table Runner",
+            "price": 35.00,
+            "description": "Brighten up your dining table with this vibrant batik runner, adding a perfect cultural touch to any meal setting.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 8,
+            "name": "Rattan Serving Tray with Batik Accents",
+            "price": 40.00,
+            "description": "Impress your guests with this stunning tray, blending natural rattan with elegant batik patterns.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 9,
+            "name": "Batik Cushion Covers",
+            "price": 30.00,
+            "description": "Transform your living space with these cozy yet artistic cushion covers, featuring hand-dyed batik designs.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 10,
+            "name": "Rattan Lanterns with Batik Shades",
+            "price": 55.00,
+            "description": "Light up your home with these enchanting lanterns, combining rustic rattan and soft batik hues.",
+            "image": "https://via.placeholder.com/150"
+        }
+    ],
+    "lifestyle": [
+        {
+            "id": 11,
+            "name": "DIY Batik Kit",
+            "price": 40.00,
+            "description": "Unleash your creativity! This kit has everything you need to design your own unique batik masterpiece.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 12,
+            "name": "Rattan & Batik Keychains",
+            "price": 10.00,
+            "description": "Carry a piece of art with you. These handmade keychains are small but full of charm and tradition.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 13,
+            "name": "Batik Journal with Rattan Binding",
+            "price": 20.00,
+            "description": "Perfect for your thoughts or sketches, this journal is as artistic as the ideas you’ll jot inside.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 14,
+            "name": "Batik Picnic Mat with Rattan Strap",
+            "price": 50.00,
+            "description": "Take your picnics up a notch with this stylish mat, easy to carry and perfect for outdoor fun.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 15,
+            "name": "Batik Stationery Set",
+            "price": 25.00,
+            "description": "Add a personal touch to your desk with this handcrafted stationery set, perfect for notes or gifts.",
+            "image": "https://via.placeholder.com/150"
+        }
+    ],
+    "gifts": [
+        {
+            "id": 16,
+            "name": "Tea Lover’s Set",
+            "price": 45.00,
+            "description": "Delight tea lovers with this beautifully curated set, featuring batik coasters and a rattan tray for the perfect tea ritual.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 17,
+            "name": "Self-Care Hamper",
+            "price": 60.00,
+            "description": "Pamper yourself or a loved one with this thoughtful collection of batik headbands, artisanal soaps, and candles.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 18,
+            "name": "Picnic Basket Bundle",
+            "price": 70.00,
+            "description": "A complete picnic experience, including a handwoven rattan basket, batik napkins, and elegant tableware.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 19,
+            "name": "Artisan Gift Box",
+            "price": 80.00,
+            "description": "Curated with love, this box offers a mix of stunning batik and rattan crafts for any occasion.",
+            "image": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 20,
+            "name": "Cultural Keepsake Box",
+            "price": 90.00,
+            "description": "Celebrate tradition with this collection of handmade treasures, blending batik and rattan artistry.",
+            "image": "https://via.placeholder.com/150"
+        }
+    ]
+}
